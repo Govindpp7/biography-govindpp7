@@ -1,0 +1,77 @@
+body{
+  font-family: Arial,sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  color: #110707;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  background: #000000;
+  color: white;
+  padding: 30px 10px;
+  border-radius: 12px;
+}
+header h1{
+  margin: 0;
+  font-size: 2.5rem;
+}
+header p{
+  font-size: 1.2rem;
+}
+.just h21{
+  text-align: center;
+}
+.bio{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.bio img{
+  width: 140px;        /* change size here */
+  height: 180px;       /* keep same for square */
+  object-fit: left;   /* prevents stretching */
+  border-radius: 60%;  /* makes it circle */
+  border: 4px solid #423403;
+}
+.bio p {
+  line-height: 1.6;
+  font-size: 1.2rem;
+  max-width: 1100px;
+  text-align: justify;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.details {
+  margin-top: 30px;
+}
+.details h2{
+  text-decoration: underline;
+  color: #4a90e2;
+}
+.details ul{
+  list-style: none;
+  padding: 0;
+}
+.details li{
+  background: #e8f0fe;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+footer
+{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
